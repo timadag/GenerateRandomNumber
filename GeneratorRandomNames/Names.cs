@@ -61,6 +61,7 @@ namespace GeneratorRandomNames
             NamesList.Items.Clear();
 
             string[] names = null;
+
             switch (GenderPersonСheckBox.SelectedIndex)
             {
                 case 0:
