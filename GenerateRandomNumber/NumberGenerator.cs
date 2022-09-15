@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace GenerateRandomNumber
 {
-    public class Generator
+    public class NumberGenerator
     {
         public static int[] GenerateRandom(int MinValue, int MaxValue, int count) {
             Random rand = new Random();

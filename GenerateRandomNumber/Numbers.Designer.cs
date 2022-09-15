@@ -1,6 +1,6 @@
 ﻿namespace GenerateRandomNumber
 {
-    partial class Form1
+    partial class Numbers
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -38,7 +38,7 @@
             this.valueNambers = new System.Windows.Forms.Label();
             this.ExcludeNumbers = new System.Windows.Forms.CheckBox();
             this.InvalidNumbers = new System.Windows.Forms.Label();
-            this.Numbers = new System.Windows.Forms.Label();
+            this.LabelNumbers = new System.Windows.Forms.Label();
             this.OrderNumbers = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.LowerBorder)).BeginInit();
@@ -161,17 +161,17 @@
             this.InvalidNumbers.Size = new System.Drawing.Size(126, 49);
             this.InvalidNumbers.TabIndex = 9;
             // 
-            // Numbers
+            // LabelNumbers
             // 
-            this.Numbers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.LabelNumbers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Numbers.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Numbers.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Numbers.Location = new System.Drawing.Point(332, 0);
-            this.Numbers.Name = "Numbers";
-            this.Numbers.Size = new System.Drawing.Size(528, 351);
-            this.Numbers.TabIndex = 10;
+            this.LabelNumbers.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelNumbers.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LabelNumbers.Location = new System.Drawing.Point(332, 0);
+            this.LabelNumbers.Name = "LabelNumbers";
+            this.LabelNumbers.Size = new System.Drawing.Size(528, 351);
+            this.LabelNumbers.TabIndex = 10;
             // 
             // OrderNumbers
             // 
@@ -202,14 +202,14 @@
             this.panel1.Size = new System.Drawing.Size(332, 351);
             this.panel1.TabIndex = 12;
             // 
-            // Form1
+            // Numbers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(860, 351);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.Numbers);
-            this.Name = "Form1";
+            this.Controls.Add(this.LabelNumbers);
+            this.Name = "Numbers";
             this.Text = "Random";
             ((System.ComponentModel.ISupportInitialize)(this.LowerBorder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UpperBorder)).EndInit();
@@ -232,7 +232,7 @@
         private System.Windows.Forms.Label valueNambers;
         private System.Windows.Forms.CheckBox ExcludeNumbers;
         private System.Windows.Forms.Label InvalidNumbers;
-        private System.Windows.Forms.Label Numbers;
+        private System.Windows.Forms.Label LabelNumbers;
         private System.Windows.Forms.CheckBox OrderNumbers;
         private System.Windows.Forms.Panel panel1;
     }
