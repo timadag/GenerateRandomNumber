@@ -20,11 +20,8 @@ namespace GeneratorRandomNames
         {
             InitializeComponent();
             GenderPersonСheckBox.SelectedIndex = 0;
-            string[] names = null;
-
-
             numericUpDown1.Maximum = parser.NamesMans.Length + parser.NamesWomens.Length;
-            names = parser.getAllNames((int)numericUpDown1.Value);
+            string[] names = parser.getAllNames((int)numericUpDown1.Value);
 
             foreach (string name in names)
             {
