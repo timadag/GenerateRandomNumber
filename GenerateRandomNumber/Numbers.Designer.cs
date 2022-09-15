@@ -210,7 +210,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.LabelNumbers);
             this.Name = "Numbers";
-            this.Text = "Random";
+            this.Text = "Random Number";
             ((System.ComponentModel.ISupportInitialize)(this.LowerBorder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UpperBorder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.countNumbers)).EndInit();
